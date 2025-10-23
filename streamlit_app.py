@@ -7,8 +7,11 @@ import mplfinance as mpf
 import appdirs as ad
 ad.user_cache_dir = lambda *args: "/tmp"
 
-st.image("https://cdn.dribbble.com/userupload/18022595/file/original-c50e1fd192b6fcd1f4e40e84bef5d57b.png?format=webp&resize=400x300&vertical=center", caption="Scenery", use_container_width=True)
-st.header("MMM Investment Website")
+# Add an image
+st.image("https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=", caption="Google Logo")
+
+# Add a video
+st.video("https://youtu.be/Zh4PicScF-U?list=RDZh4PicScF-U")st.header("MMM Investment Website")
 st.subheader("About Us")
 st.write("We are dedicated to helping you make informed investment decisions.")
 st.subheader("Services")
