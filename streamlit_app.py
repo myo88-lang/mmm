@@ -7,7 +7,7 @@ import mplfinance as mpf
 import appdirs as ad
 ad.user_cache_dir = lambda *args: "/tmp"
 
-st.image("https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Doraemon_2013_poster.jpg/220px-Doraemon_2013_poster.jpg", caption="Doraemon", use_container_width=True)
+st.image("https://www.istockphoto.com/jp/%E3%82%B9%E3%83%88%E3%83%83%E3%82%AF%E3%83%95%E3%82%A9%E3%83%88/%E6%97%A5%E6%9C%AC%E3%81%AE%E7%A6%8F%E5%B2%A1%E5%B8%82%E3%81%AE%E9%A2%A8%E6%99%AF-gm1491666938-515942820", caption="Scenery", use_container_width=True)
 st.subheader("About Us")
 st.write("We are dedicated to helping you make informed investment decisions.")
 st.subheader("Services")
