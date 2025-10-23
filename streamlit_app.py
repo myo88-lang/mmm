@@ -7,6 +7,16 @@ import mplfinance as mpf
 import appdirs as ad
 ad.user_cache_dir = lambda *args: "/tmp"
 
+st.image("https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Doraemon_2013_poster.jpg/220px-Doraemon_2013_poster.jpg", caption="Doraemon", use_container_width=True)
+st.subheader("About Us")
+st.write("We are dedicated to helping you make informed investment decisions.")
+st.subheader("Services")
+st.write("- Investment analysis")
+st.write("- Portfolio management")
+st.write("- Market insights")
+
+st.subheader("Contact Us")
+st.write("Get in touch to learn more about our services.")
 # Specify title and logo for the webpage.
 # Set up your web app
 st.set_page_config(layout="wide", page_title="WebApp_Demo")
