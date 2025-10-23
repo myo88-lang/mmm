@@ -7,7 +7,8 @@ import mplfinance as mpf
 import appdirs as ad
 ad.user_cache_dir = lambda *args: "/tmp"
 
-st.image("https://www.freepik.com/premium-vector/rabbit-logo-template-design_18472507.htm#fromView=keyword&page=3&position=17&uuid=18965ff7-66ad-4fa2-8d60-30704fab3a75&query=Free+logo+design", caption="Scenery", use_container_width=True)
+st.image("https://cdn.dribbble.com/userupload/18022595/file/original-c50e1fd192b6fcd1f4e40e84bef5d57b.png?format=webp&resize=400x300&vertical=center", caption="Scenery", use_container_width=True)
+st.header("MMM Investment Website")
 st.subheader("About Us")
 st.write("We are dedicated to helping you make informed investment decisions.")
 st.subheader("Services")
