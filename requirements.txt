@@ -1,7 +1,4 @@
-streamlit
-datetime
-matplotlib
-appdirs
-yfinance
-mplfinance
 pandas
+scikit-learn
+streamlit
+requests
